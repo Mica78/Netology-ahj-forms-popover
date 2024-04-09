@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.popover {
+  border: 1px solid #d1d5db;
+  position: relative;
+  background-color: white;
+}
+
+.arrow {
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  border-bottom: 1px solid #d1d5db;
+  border-right: 1px solid #d1d5db;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.popover-header {
+  margin: 0;
+  padding: 0;
+  background-color: #d1d5db;
+}
+
+.popover-body {
+  color: blue;
+}
+
+.container {
+  width: 50%;
+  height: 5rem;
+}
+
+button {
+  width: 20%;
+}
